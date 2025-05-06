@@ -37,6 +37,7 @@ export function WeekDay({ day, movies }) {
         onMovieSelect={(movie) => {
           setSelectedMovie(movie);
           setSelectedScreening(null);
+          setTicketCounts({});
         }}
         onScreeningSelect={setSelectedScreening}
       />
